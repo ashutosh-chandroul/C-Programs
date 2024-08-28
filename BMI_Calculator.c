@@ -6,7 +6,7 @@ printf("enter your weight in kg:");
 scanf("%d",&x);
 printf("enter your height in metre:");
 scanf("%d",&y);
-bmi=(x/(y*y))*100;
+bmi=x/(y*y);
 if(bmi<18)
 {
 printf("you are under weight\n");
